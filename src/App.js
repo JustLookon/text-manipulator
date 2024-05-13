@@ -5,17 +5,17 @@ import Alert from "./components/Alert";
 
 function App() {
   const [text, setText] = useState("");
-  const [alert, setAlert] = useState(null)
+  const [alert, setAlert] = useState(null);
   const [mode, setMode] = useState("light");
-  const showAlert=(type, message)=>{
+  const showAlert = (type, message) => {
     setAlert({
       type: type,
-      msg: message
-    })
-    setTimeout(()=>{
-      setAlert(null)
-    },2000);
-  }
+      msg: message,
+    });
+    setTimeout(() => {
+      setAlert(null);
+    }, 2000);
+  };
   function handleOnClick(e) {
     const newText = setText(e.target.value);
   }
@@ -23,16 +23,16 @@ function App() {
   const handleUpClick = () => {
     const newText = text.toUpperCase();
     setText(newText);
-    showAlert("success","Text has been in upper case!")
+    showAlert("success", "Text has been in upper case!");
   };
   const handleLowClick = () => {
     const newText = text.toLowerCase();
     setText(newText);
-    showAlert("success","Text has been in lower case!")
+    showAlert("success", "Text has been in lower case!");
   };
   const clearText = () => {
     setText("");
-    showAlert("success","Text has been cleared!")
+    showAlert("success", "Text has been cleared!");
   };
   const ToggleSwitch = () => {
     if (mode === "light") {
@@ -40,26 +40,21 @@ function App() {
       document.body.style.backgroundColor = "#0b0e3b";
       document.body.style.color = "white";
       document.body.style.transitionDuration = "150ms";
-      showAlert("success","Dark Mode has been enabled!")
-      
+      showAlert("success", "Dark Mode has been enabled!");
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
       document.body.style.color = "black";
       document.body.style.transitionDuration = "150ms";
-      showAlert("success","Light Mode has been enabled!")
-
+      showAlert("success", "Light Mode has been enabled!");
     }
-
   };
   return (
     <>
-
       <div className="flex flex-col pb-4">
         <Navbar mode={mode} toggle={ToggleSwitch} />
-        <Alert alert = {alert}/>
+        <Alert alert={alert} />
         <div className="  w-[70vw] mx-auto my-7">
-
           <textarea
             className="form-control transition-all"
             placeholder={`Type your text here`}
@@ -93,7 +88,7 @@ function App() {
 
           <div className="border p-4 rounded-md">
             <h2 className="font-medium text-3xl m-2">Text details</h2>
-            words = {text===""?0 :text.split(" ").length} <br />
+            words = {text === "" ? 0 : text.split(" ").length} <br />
             character = {text.length} <br />
             Minutes to read the above text ={" "}
             {text.split(" ").length * 0.00420168067}
