@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/text-manipulator/static/css/main.0591f18a.chunk.css",
-    "main.js": "/text-manipulator/static/js/main.49010fc9.chunk.js",
-    "main.js.map": "/text-manipulator/static/js/main.49010fc9.chunk.js.map",
-    "runtime~main.js": "/text-manipulator/static/js/runtime~main.a3c8f4a8.js",
-    "runtime~main.js.map": "/text-manipulator/static/js/runtime~main.a3c8f4a8.js.map",
-    "static/js/2.38fec76d.chunk.js": "/text-manipulator/static/js/2.38fec76d.chunk.js",
-    "static/js/2.38fec76d.chunk.js.map": "/text-manipulator/static/js/2.38fec76d.chunk.js.map",
-    "static/js/3.940f5f6f.chunk.js": "/text-manipulator/static/js/3.940f5f6f.chunk.js",
-    "static/js/3.940f5f6f.chunk.js.map": "/text-manipulator/static/js/3.940f5f6f.chunk.js.map",
+    "main.css": "/text-manipulator/static/css/main.1624d5f1.chunk.css",
+    "main.js": "/text-manipulator/static/js/main.65b844dd.chunk.js",
+    "main.js.map": "/text-manipulator/static/js/main.65b844dd.chunk.js.map",
+    "runtime~main.js": "/text-manipulator/static/js/runtime~main.00f23944.js",
+    "runtime~main.js.map": "/text-manipulator/static/js/runtime~main.00f23944.js.map",
+    "static/js/2.58d680d1.chunk.js": "/text-manipulator/static/js/2.58d680d1.chunk.js",
+    "static/js/2.58d680d1.chunk.js.map": "/text-manipulator/static/js/2.58d680d1.chunk.js.map",
+    "static/js/3.1b3c587a.chunk.js": "/text-manipulator/static/js/3.1b3c587a.chunk.js",
+    "static/js/3.1b3c587a.chunk.js.map": "/text-manipulator/static/js/3.1b3c587a.chunk.js.map",
     "index.html": "/text-manipulator/index.html",
-    "precache-manifest.6e870e0a3009e7271e4c90ac791b352b.js": "/text-manipulator/precache-manifest.6e870e0a3009e7271e4c90ac791b352b.js",
+    "precache-manifest.c4e675bc38a25ba46a267852e7282748.js": "/text-manipulator/precache-manifest.c4e675bc38a25ba46a267852e7282748.js",
     "service-worker.js": "/text-manipulator/service-worker.js",
-    "static/css/main.0591f18a.chunk.css.map": "/text-manipulator/static/css/main.0591f18a.chunk.css.map"
+    "static/css/main.1624d5f1.chunk.css.map": "/text-manipulator/static/css/main.1624d5f1.chunk.css.map"
   }
 }
